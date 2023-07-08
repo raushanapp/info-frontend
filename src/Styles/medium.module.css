@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 .imag1 {
@@ -43,6 +44,7 @@
         display: flex;
         align-items: center;
         height: 250px;
+        margin: auto;
     }
 
     .imag1 {

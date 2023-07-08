@@ -1,8 +1,8 @@
 .App{
   /* border :1px solid red; */
   display: flex;
-  margin: auto;
   width: 1280px;
+  margin: auto;
   /* justify-content: space-around; */
   align-items: center;
   flex-direction: column;

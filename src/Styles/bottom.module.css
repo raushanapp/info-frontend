@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    margin: auto;
 
 }
 
@@ -96,6 +97,7 @@
         align-items: center;
         width: 375px;
         height: 300px;
+        margin: auto;
 
     }
 
