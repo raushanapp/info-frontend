@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 562px;
+    align-items: center;
+}
+
+.imagePo {
+    width: 622px;
+    height: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading {
+    position: absolute;
+    color: #FFFFFF;
+    display: flex;
+    width: 311px;
+    height: 130px;
+    font-family: " Kdam Thmor";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    left: 550px;
+    top: 150px;
+}
+
+.insideBox {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 562px;
+    flex-direction: column;
+}
+
+.image1 {
+    width: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 326px;
+}
+
+.image2 {
+    width: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 236px;
+}
+
+@media screen and (min-width:375px) and (max-width:675px) {
+    .container {
+        display: flex;
+        width: 375;
+        height: 300px;
+        align-items: center;
+    }
+
+    .imagePo {
+        width: 200px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .image11 {
+        width: 200px;
+        height: 300px;
+    }
+
+    .heading {
+        position: absolute;
+        color: #FFFFFF;
+        display: flex;
+        width: 200px;
+        height: 130px;
+        font-family: " Kdam Thmor";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 2.2px;
+        left: 150px;
+        top: 90px;
+    }
+
+    .insideBox {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 175px;
+        flex-direction: column;
+    }
+
+    .image1 {
+        width: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .image12 {
+        width: 175px;
+        height: 200px;
+    }
+
+    .image2 {
+        width: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+
+    .image13 {
+        width: 175px;
+        height: 100px;
+    }
+}

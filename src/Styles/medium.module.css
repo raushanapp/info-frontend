@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.imag1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 563px;
+    height: 400px;
+    margin-top: -165px;
+}
+
+.imag2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 622px;
+    height: 562px;
+}
+
+.title {
+    display: flex;
+    height: 142px;
+    text-align: center;
+    font-family: "Yusei Magic";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    position: absolute;
+    left: 450px;
+    top: 700px;
+}
+
+@media screen and (min-width:375px) and (max-width:675px) {
+    .container {
+        width: 375px;
+        display: flex;
+        align-items: center;
+        height: 250px;
+    }
+
+    .imag1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 175px;
+        height: 150px;
+    }
+
+    .image11 {
+        width: 175px;
+        height: 150px;
+        margin-top: 60px;
+    }
+
+    .imag2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    .image22 {
+        width: 200px;
+        height: 200px;
+        margin-top: -50px;
+    }
+
+        .title {
+            /* display: flex; */
+            /* height: 40px; */
+            /* width: 300px; */
+            text-align: center;
+            font-family: "Yusei Magic";
+            font-size: 12px;
+            font-style: normal;
+            /* font-weight: 300; */
+            /* line-height: 20px; */
+            letter-spacing: 0.4px;
+            position: absolute;
+            left: 100px;
+    
+        }
+}
